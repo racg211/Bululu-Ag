@@ -541,8 +541,8 @@ margin-bottom: 30px;
 	padding: 7px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
-	color: black;
-	background-color: white;
+	color: white;
+	background-color: #6bc5d0;
 	background-image: none;
 	border: 0;
 	border-top: 2px solid transparent;
@@ -617,7 +617,7 @@ nav#footer{
 	/*---------------- Custom -------------- */
 
 #meet-us,
-#contact,
+#about-us,
 nav#footer{
 	background: #9df4ff;
 	color: black;
@@ -713,6 +713,40 @@ nav#footer{
 
 #footer span.fa{
 	color: black;
+}
+
+
+.team{
+	border: solid 1px black;
+	opacity: 0.8;
+}
+
+.team:hover.hire, .team.hire, .team.hire>a{
+	color: black;
+}
+
+.team.hire{
+	border: solid 1px black;
+}
+
+
+
+
+.team hr{
+	border-width: 2px;
+	border-color: #e5bce1; 
+}
+
+
+#contact{
+	background-color: #ffffff;
+	color: black; 
+}
+
+
+
+.form-control::placeholder{
+	color: white;
 }
 
 
