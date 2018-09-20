@@ -517,7 +517,7 @@ address:before{
   	text-rendering: auto;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
-  	color: #c59a6d;
+  	color: black;
   	vertical-align: middle;
   	margin-right: 15px;
   	margin-left: -30px;
@@ -541,8 +541,8 @@ margin-bottom: 30px;
 	padding: 7px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
-	color: #555;
-	background-color: #1e2429;
+	color: black;
+	background-color: white;
 	background-image: none;
 	border: 0;
 	border-top: 2px solid transparent;
@@ -556,7 +556,7 @@ margin-bottom: 30px;
 }
 
 #contact .form-control:focus {
-	border-color: #C59A6D;
+	border-color: #e5bce1;
 	outline: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -616,11 +616,21 @@ nav#footer{
 
 	/*---------------- Custom -------------- */
 
-#meet-us{
-	background: #6bc5d0;
+#meet-us,
+#contact,
+nav#footer{
+	background: #9df4ff;
 	color: black;
 }
 
+
+.navmenu-default .navmenu-nav>li>a:hover{
+	color: black;
+}
+
+.navmenu-default .navmenu-nav>li>a:focus{
+	color: black;
+}
 
 
 a.btn.read-more-btn{
@@ -646,6 +656,9 @@ nav#menu span.fa.fa-bars{
 	color: #e5bce1;
 }
 
+nav#menu span.fa.fa-bars:hover{
+	color: #e5bce1;
+}
 
 .navmenu-default, .navbar-default .navbar-offcanvas{
 	background: #6bc5d0;
@@ -662,3 +675,42 @@ a.down-btn span.fa.fa-angle-down{
 	color: black;
 }
 
+
+a.btn.send-btn{
+	background: #6bc5d0;
+	border: none;
+
+}
+
+a.btn.send-btn:hover{
+	background: #e5bce1;
+	border: none;
+
+}
+
+
+ul.social li a{
+	color: black;
+}
+
+
+ul.social li a:hover{
+	color: #e5bce1;
+}
+
+nav#footer{
+	border-bottom: 5px solid #e5bce1;
+}
+
+#footer a{
+	color: black;
+}
+
+
+#footer a:hover{
+	color: black;
+}
+
+#footer span.fa{
+	color: black;
+}
