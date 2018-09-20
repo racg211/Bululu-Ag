@@ -73,12 +73,12 @@ a:focus{
 }
 #home a.down-btn span.fa.fa-angle-down {
 	font-size: 26px;
-	border: 1px solid #9df4ff;
+	border: 1px solid white;
 	border-radius: 2px;
 	padding: 7px 5px;
 	position: relative;
 	margin-top: 100px;
-	color: #e5bce1;
+	color: white;
 	cursor: pointer;
 }
 .content{
@@ -653,11 +653,11 @@ a.btn.read-more-btn:hover{
 
 
 nav#menu span.fa.fa-bars{
-	color: #e5bce1;
+	color: #6bc5d0;
 }
 
 nav#menu span.fa.fa-bars:hover{
-	color: #e5bce1;
+	color: #6bc5d0;
 }
 
 .navmenu-default, .navbar-default .navbar-offcanvas{
@@ -749,6 +749,16 @@ nav#footer{
 	color: white;
 }
 
+
+.hover-text p.lead{
+	color: #6bc5d0;
+}
+
+
+.team:hover.hire, .team.hire{
+	border-color: black;
+	color: black;
+}
 
 
 #ig-footer {
