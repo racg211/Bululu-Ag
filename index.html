@@ -413,20 +413,23 @@
                 </div>
 
                 <div class="col-md-9">
-                    <form autocomplete="off"  name="contact" method="POST"netlify>
+                    <form autocomplete="off"  action="https://formspree.io/bululuac@gmail.com">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Tu nombre">
-                                <input type="text" class="form-control" placeholder="Numero Telefonico">
+                                <input type="text" class="form-control" placeholder="Tu nombre" name="name">
+                                <input type="text" class="form-control" placeholder="Numero Telefonico" name="telefono">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Email">
-                                <input type="text" class="form-control" placeholder="Asunto">
+                                <input type="text" class="form-control" placeholder="Email" name="_replyto">
+                                <input type="text" class="form-control" placeholder="Asunto" name="Asunto">
                             </div>
                         </div>
-                        <textarea class="form-control" rows="4" placeholder="Mensaje"></textarea>
+                        <textarea class="form-control" rows="4" placeholder="Mensaje" name="mensaje"></textarea>
+                        
                         <div class="text-right">
-                            <a href="#" class="btn send-btn">Enviar</a>
+                            <button class="btn send-btn send" type="submit">Enviar</button>
+
+                            
                         </div>
                     </form>
                 </div>

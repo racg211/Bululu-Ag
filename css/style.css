@@ -766,6 +766,21 @@ nav#footer{
 	background: #e5bce1;
 }
 
+
+.send{
+	background: #6bc5d0; 
+	width: 140px; 
+	height: 40px;
+	border-radius: 0;
+	color: white;
+	transition: all 0.5s;
+}
+
+.send:hover{
+	background: #e5bce1;
+	color: white; 
+}
+
 #ig-footer {
 position:relative;
 text-align:center;
