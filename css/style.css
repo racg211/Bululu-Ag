@@ -761,6 +761,11 @@ nav#footer{
 }
 
 
+
+.close:hover{
+	background: #e5bce1;
+}
+
 #ig-footer {
 position:relative;
 text-align:center;
