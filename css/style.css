@@ -767,6 +767,10 @@ nav#footer{
 }
 
 
+#autor:hover{
+	color: white;
+}
+
 .send{
 	background: #6bc5d0; 
 	width: 140px; 
